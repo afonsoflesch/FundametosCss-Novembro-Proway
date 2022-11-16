@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #repetir_horizontal {
+            background-image: url(google.png);
+            background-repeat: repeat-x;
+            width: 800px;
+            height: 800px;
+            border: 1px solid black;
+        }
+
+        .caixa {
+            width: 800px;
+            height: 800px;
+            border: 1px solid black;
+        }
+
+        #repetir_vertical {
+            background-image: url(google.png);
+            background-repeat: repeat-y;
+
+
+        }
+
+        #nao_reperte {
+            background-image: url(google.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .circular {
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <P Style="color: darkcyan;">Cor por nome</P>
+        </li>
+        <li><b Style="color: #00ff00;">Cor por hexadecimal</b></li>
+        <li><i style="color: RGB(100,10,255);">Cor RGB</i></li>
+        <li>
+            <p Style="color: rgba(100, 10, 255, 0.2);">Cpr rgb com Alpha</p>
+        </li>
+    </ul>
+
+    <ol>
+        <li style="background-color: Lime ;"><span style="color: white; ">cor</span> de fundo pelo nome</li>
+        <li style="background-color: #691111 ;">Cor de fundo por HEX</li>
+        <li style="background-color: rgb(10,20,30) ;">Cor de fundo com RGB</li>
+        <li style="background-color: rgba(200, 0, 0, 0.5)  ;">Cor de fundo com Alpha</li>
+        <li
+            style="background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);">
+            Tem uma imagem aqui da internet</li>
+        <li style="background-image: url(google.png) ;">Tem uma imagem aqui do computador</li>
+        <li style="background-image: url(google.png); background-repeat: no-repeat;">Tem uma imagem que está se
+            repetindo</li>
+        <li>
+            <div id="repetir_horizontal" class="caixa">Repetir horizontal</div>
+
+        </li>
+        <li id="repetir_vertical" class="caixa">Repetir vertical</li>
+        <li style="border: 1px solid black ;">Borda misteriosa</li>
+        <li>
+            <div class="circular">Bordas</div>
+        </li>
+
+        <li>
+            <div style="border: 1px solid black ; border-top-left-radius: 10px; border-bottom-right-radius: 10px; width: 100px; text-align: center;"> colgate</div>
+        </li>
+        <li>
+        <div style="background-color: grey; width: 300px; height: 300px; margin: 20px; padding: 40px;">CONTEUDO Aqui</div>
+        </li>
+
+        <li>
+            <span style="font-size: larger; font-weight: bold; font-style: oblique;">Texto</span>
+        </li>
+    </ol>
+
+</body>
+
+</html>
