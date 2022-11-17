@@ -12,9 +12,10 @@
             border: 2px dashed rgb(0, 21, 255);
             padding: 40px;
             background-color: rgba(145, 145, 145, 0.482);
+            background-image: linear-gradient();
             margin: 50px;
             text-align: center;
-        
+
 
         }
 
@@ -25,10 +26,11 @@
             border-radius: 70%;
             text-align: center;
         }
-        img:hover{
+
+        img:hover {
             width: 200px;
             height: 200px;
-            
+
 
         }
 
@@ -36,13 +38,27 @@
             color: navy;
             font-size: larger;
             margin-top: 50px;
-            list-style: none
-            ;
+            list-style: none;
         }
+
         .topico:hover {
-           background-color: whitesmoke;
-           border-radius: 20px;
+            background-color: whitesmoke;
+            border-radius: 20px;
+            filter: blur(-10px);
+            transform: scale(.98);
+            box-shadow: none;
         }
+
+
+        .topico:hover {
+            transform: scale(1);
+            filter: blur(0px);
+            opacity: 1;
+            box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+            background: #ffffff;
+            color: rgb(0, 255, 55);
+        }
+
 
         .dados {
 
@@ -64,7 +80,8 @@
         .valor {
             font-style: italic;
         }
-        #nome{
+
+        #nome {
             color: rgb(0, 0, 0);
             vertical-align: 70px;
             height: 40px;
